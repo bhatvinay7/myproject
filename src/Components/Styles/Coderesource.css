@@ -1,0 +1,35 @@
+.codeCardDiv{
+     width:600px;
+     padding:1.5rem;
+     align-content: center;
+}
+.elementNameStyle{
+    text-decoration:none;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 4px 10px rgba(0, 0, 0, 0.676);
+}
+.linkContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+}
+.spandiv {
+    display:flex;
+    justify-content: space-between;
+    align-content:stretch;
+}
+.spandiv >span{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.imgStyle{
+  width:300px;
+  aspect-ratio:1/1;
+  object-fit:fill;  
+}
+.elementsContainer{
+    display:grid;
+
+}
